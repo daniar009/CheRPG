@@ -35,7 +35,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, level, comment }) => (
       <div className="text-sm text-gray-600">{level} Player</div>
     </CardHeader>
     <CardContent>
-      <p>"{comment}"</p>
+      <p>{comment}</p>
     </CardContent>
   </Card>
 )
@@ -143,7 +143,7 @@ export default function LandingPage() {
         <p className="text-xs text-gray-700">© 2024 CheRPG. All rights reserved. (maybe?)</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Terms of Service that we don't have rn
+            Terms of Service that we don`t have rn
           </Link>
           <Link className="text-xs hover:underline underline-offset-4" href="#">
             Privacy of nothing
